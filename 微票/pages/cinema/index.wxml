@@ -1,0 +1,8 @@
+<view wx:for="{{cinemaList}}" class="container">
+    <view class="content">
+        <text class="title">{{item.title}}\n</text>
+        <text class="subTitle">{{item.subTitle}}\n</text>
+        <text class="tag">{{item.tag}}</text>
+    </view>
+    <text class="price">{{item.price}}</text>
+</view>

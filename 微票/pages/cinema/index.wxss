@@ -1,0 +1,26 @@
+.container{
+    padding:20px 10px;
+    position:relative;
+    border-top:1px solid #ccc;
+}
+.content{
+    width:75%;
+    font-size:14px;
+    line-height:25px;
+    
+}
+.title{
+    font-size:20px;
+}
+.tag{
+    color:green;
+    font-size:16px;
+    background:#ccc;
+}
+.price{
+    position:absolute;
+    right:10px;
+    top:50px;
+    color:red;
+    font-size:20px;
+}

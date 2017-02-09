@@ -1,0 +1,22 @@
+<!--index.wxml-->
+<view class="container">
+  <swiper autoplay="true" indicator-dots="true" interval="2000">
+    <swiper-item wx:for="{{navData}}">
+      <image src="{{item}}"/>
+    </swiper-item>
+  </swiper>
+</view>
+
+<view wx:for="{{movieData}}" class="movieList"> 
+  <view class="content">
+    <image src="{{item.image}}"/>
+    <text class="title">{{item.title}}\n</text>
+    <text class="subTitle">{{item.subTitle}}\n</text>
+    <text class="actor">{{item.actor}}</text>
+  </view>
+  <view class="others">
+    <text class="score">{{item.score}}</text>
+    <button class="buyTicket" bindtap="showCinema">{{item.action}}</button>
+  </view>
+
+</view>
